@@ -1,12 +1,13 @@
 package c.c.c;
 
-public class main {
+public class Main {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
 
         Student student = new Student("Jonas", 35);
         student.sayHello();
         runMyForLoop();
+
     }
 
     public static void runMyForLoop() {
